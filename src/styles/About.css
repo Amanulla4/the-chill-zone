@@ -89,7 +89,6 @@
   height: 400px;
 }
 
-/* Mobile Responsive */
 @media (max-width: 968px) {
   .about-content {
     grid-template-columns: 1fr;

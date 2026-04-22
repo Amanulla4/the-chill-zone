@@ -4,7 +4,10 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Menu from './components/Menu';
 import Gallery from './components/Gallery';
-
+import Events from './components/Events';
+import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +17,10 @@ function App() {
       <About />
       <Menu />
       <Gallery />
+      <Events />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

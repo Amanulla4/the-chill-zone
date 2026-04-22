@@ -1,6 +1,12 @@
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55)
+  ), url('../assets/cafe1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +24,7 @@
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-subtitle {
@@ -48,12 +54,14 @@
   cursor: pointer;
   font-weight: bold;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .cta-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  background: #667eea;
+  color: white;
 }
 
 @keyframes fadeInDown {
@@ -67,12 +75,12 @@
   }
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
   .hero {
     height: auto;
     min-height: 80vh;
     padding: 2rem 1rem;
+    background-attachment: scroll;
   }
 
   .hero-title {

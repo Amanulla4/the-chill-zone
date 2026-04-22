@@ -12,7 +12,9 @@ export default function Hero() {
           we're a vibe. Lounge in our Instagram-worthy space, sip on signature mocktails, 
           grab artisan shakes, and celebrate life's moments.
         </p>
-        <button className="cta-button">Explore Menu</button>
+        <button className="cta-button" onClick={() => document.getElementById('menu').scrollIntoView({ behavior: 'smooth' })}>
+          Explore Menu
+        </button>
       </div>
     </section>
   );

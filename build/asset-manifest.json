@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/the-chill-zone/static/css/main.aab5e8f1.css",
-    "main.js": "/the-chill-zone/static/js/main.f3b87532.js",
+    "main.css": "/the-chill-zone/static/css/main.1489fafd.css",
+    "main.js": "/the-chill-zone/static/js/main.9db5d9fb.js",
     "static/js/453.d9c67dbe.chunk.js": "/the-chill-zone/static/js/453.d9c67dbe.chunk.js",
     "static/media/cafe7.jpg": "/the-chill-zone/static/media/cafe7.79f867faac688ff5ef77.jpg",
     "static/media/cafe5.jpg": "/the-chill-zone/static/media/cafe5.0dc685ee28f2b5fda988.jpg",
@@ -12,12 +12,12 @@
     "static/media/cafe3.jpg": "/the-chill-zone/static/media/cafe3.a9315d1922b7af971a3a.jpg",
     "static/media/logo.png.jpg": "/the-chill-zone/static/media/logo.png.37080a15765eb22c4ba5.jpg",
     "index.html": "/the-chill-zone/index.html",
-    "main.aab5e8f1.css.map": "/the-chill-zone/static/css/main.aab5e8f1.css.map",
-    "main.f3b87532.js.map": "/the-chill-zone/static/js/main.f3b87532.js.map",
+    "main.1489fafd.css.map": "/the-chill-zone/static/css/main.1489fafd.css.map",
+    "main.9db5d9fb.js.map": "/the-chill-zone/static/js/main.9db5d9fb.js.map",
     "453.d9c67dbe.chunk.js.map": "/the-chill-zone/static/js/453.d9c67dbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aab5e8f1.css",
-    "static/js/main.f3b87532.js"
+    "static/css/main.1489fafd.css",
+    "static/js/main.9db5d9fb.js"
   ]
 }
